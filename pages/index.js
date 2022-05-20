@@ -49,6 +49,7 @@ export default function Home() {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
+          <h1>COUCOU</h1>
         </div>
       </main>
 
@@ -67,3 +68,4 @@ export default function Home() {
     </div>
   )
 }
+
