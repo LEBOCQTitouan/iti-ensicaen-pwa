@@ -2,11 +2,12 @@ import '../styles/globals.css'
 import ButtonAppBar from '../components/navigation/ButtonAppBar'
 import { createTheme, ThemeProvider, styled } from '@mui/material/styles';
 
+
 const customTheme = createTheme({
     palette: {
         type: 'light',
         primary: {
-            main: '#04B2D9',
+            main: '#fdcdba',
         },
         secondary: {
             main: '#F2CB05',
