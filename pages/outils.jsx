@@ -15,19 +15,63 @@ export default function Introduction() {
             </Head>
 
             <main className={styles.main}>
-                <Box height="100vh" onClick={() => { router.push("/outils#slide2") }}>
-                    <h1 id="slide1">React & Angular</h1>
-                    <p>
-                        Pour créer une PWA, les outils les plus utilisés aujourd'hui sont Angular et React.
-                        
-                    </p>
+
+                <Box height="100vh" id="mainBox" onClick={() => { router.push("/outils#slide2") }}>
+                    <div class="main_container" id="slide1">
+                        <div class="top_center">
+                            <h1>Les Outils</h1>
+                        </div>
+
+
+                        <div class="bottom">
+                            <div class="bottom_left">
+                                <h1>React</h1>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                </p>
+                            </div>
+
+                            <div class="bottom_center">
+                                <h1>Angular</h1>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                </p>
+                            </div>
+
+                            <div class="bottom_right">
+                                <h1>Your Choice</h1>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </Box>
-                <Box height="100vh" onClick={() => { router.push("/outils#slide2") }}>
-                    <h1 id="slide2">React & Angular</h1>
-                    <p>
-                        Pour créer une PWA, les outils les plus utilisés aujourd'hui sont Angular et React.
-                        
-                    </p>
+
+                <Box height="100vh" id="mainBox" onClick={() => { router.push("/outils#slide2") }}>
+                    <div class="main_container" id="slide2">
+                        <div class="top_center">
+                            <h1>React</h1>
+                        </div>
+
+
+                        <div class="bottom">
+                            <div class="bottom_left">
+                                <h1>Bottom left</h1>
+                            </div>
+
+                            <div class="bottom_center">
+                                <h1>Bottoms center</h1>
+                            </div>
+
+                            <div class="bottom_right">
+                                <h1>Bottom right</h1>
+                            </div>
+                        </div>
+                    </div>
                 </Box>
             </main>
         </div>
