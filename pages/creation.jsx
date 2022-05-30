@@ -4,7 +4,7 @@ import { Button, Container, Box } from "@mui/material";
 import { useRouter } from "next/router";
 
 export default function Introduction() {
-    const router = useRouter();
+  const router = useRouter();
   return (
     <div>
       <Head>
@@ -15,7 +15,7 @@ export default function Introduction() {
 
       <main>
         <Container>
-          <Box height="100vh" onClick={() => {router.push("/creation#slide2")}}>
+          <Box height="100vh" onClick={() => { router.push("/creation#slide2") }}>
             <h1 id="slide1">Comment créer une PWA ?</h1>
             <p>
               Afin de pouvoir installer une PWA cette dernière va devoir remplir
@@ -24,7 +24,7 @@ export default function Introduction() {
               peuvent être observés en fonction du navigateur utilisé.
             </p>
           </Box>
-          <Box height="100vh" onClick={() => {router.push("/creation#slide3")}}>
+          <Box height="100vh" onClick={() => { router.push("/creation#slide3") }}>
             <h1 id="slide2">La PWA ne doit pas être deja presente sur le PC</h1>
             <p>
               Tout d’abord afin d’installer une PWA elle ne doit pas déjà être
@@ -33,7 +33,7 @@ export default function Introduction() {
             </p>
           </Box>
           <Box height="100vh">
-            <h1  id="slide3">Heuristique engagement utilisateur</h1>
+            <h1 id="slide3">Heuristique engagement utilisateur</h1>
             <p>
               Dans un second temps l’installation de l’application nécessiter de
               valider les heuristiques d’engagement utilisateurs (user
