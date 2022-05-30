@@ -19,6 +19,7 @@ import HomeIcon from '@mui/icons-material/Home';
 import EditButton from '@mui/icons-material/Edit';
 import Button from "@mui/material/Button";
 import Link from "next/link";
+import CelebrationIcon from '@mui/icons-material/Celebration';
 
 
 export default function ButtonAppBar() {
@@ -31,6 +32,8 @@ export default function ButtonAppBar() {
         }
         setOpen(state);
     }
+
+
 
     const list = () => (<Box
         role="presentation"
@@ -134,6 +137,8 @@ export default function ButtonAppBar() {
                             MyPWA
                         </Button>
                     </Link>
+
+                    <CelebrationIcon></CelebrationIcon>
                 </Toolbar>
             </AppBar>
         </Box>
