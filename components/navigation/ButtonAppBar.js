@@ -17,8 +17,10 @@ import ConstructionIcon from '@mui/icons-material/Construction';
 import GolfCourseIcon from '@mui/icons-material/GolfCourse';
 import HomeIcon from '@mui/icons-material/Home';
 import EditButton from '@mui/icons-material/Edit';
-import Button from "@mui/material/Button";
 import Link from "next/link";
+import FormControlLabel from "@mui/material/FormControlLabel";
+import Switch from "@mui/material/Switch";
+import Typography from "@mui/material/Typography";
 
 
 export default function ButtonAppBar() {
@@ -125,15 +127,12 @@ export default function ButtonAppBar() {
                     >
                         <MenuIcon/>
                     </IconButton>
-                    <Link href="/">
-                        <Button
-                            size="large"
-                            color="inherit"
-                            variant="text"
-                        >
+                    <Typography variant="h6" component="div" sx={{flexGrow: 1}}>
+                        <Link href="/">
                             MyPWA
-                        </Button>
-                    </Link>
+                        </Link>
+                    </Typography>
+                    <FormControlLabel labelPlacement="start" control={<Switch defaultChecked/>} label="Theme"/>
                 </Toolbar>
             </AppBar>
         </Box>

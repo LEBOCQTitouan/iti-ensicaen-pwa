@@ -1,5 +1,7 @@
 import styles from "../styles/Home.module.css";
 import Head from "next/head";
+import {Container} from "@mui/material";
+import Box from "@mui/material/Box";
 
 export default function Introduction() {
     return (
@@ -11,9 +13,12 @@ export default function Introduction() {
             </Head>
 
             <main className={styles.main}>
-                <h1 className={styles.title}>
-                    Definition
-                </h1>
+                <Container>
+                    <Box height="100vh">
+                        <h1 id="slide1">Definition</h1>
+                        <h2>Qu&amp;aposest ce qu&amp;aposune PWA ?</h2>
+                    </Box>
+                </Container>
             </main>
         </div>
     )
