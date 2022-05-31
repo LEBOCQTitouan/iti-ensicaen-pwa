@@ -18,8 +18,6 @@ import GolfCourseIcon from '@mui/icons-material/GolfCourse';
 import HomeIcon from '@mui/icons-material/Home';
 import EditButton from '@mui/icons-material/Edit';
 import Link from "next/link";
-import FormControlLabel from "@mui/material/FormControlLabel";
-import Switch from "@mui/material/Switch";
 import Typography from "@mui/material/Typography";
 
 
@@ -44,7 +42,7 @@ export default function ButtonAppBar() {
                 <ListItem disablePadding>
                     <ListItemButton>
                         <ListItemIcon>
-                            <HomeIcon></HomeIcon>
+                            <HomeIcon/>
                         </ListItemIcon>
                         <ListItemText primary="Accueil"/>
                     </ListItemButton>
@@ -54,7 +52,7 @@ export default function ButtonAppBar() {
                 <ListItem disablePadding>
                     <ListItemButton>
                         <ListItemIcon>
-                            <RocketLaunchIcon></RocketLaunchIcon>
+                            <RocketLaunchIcon/>
                         </ListItemIcon>
                         <ListItemText primary="Introduction"/>
                     </ListItemButton>
@@ -64,7 +62,7 @@ export default function ButtonAppBar() {
                 <ListItem disablePadding>
                     <ListItemButton>
                         <ListItemIcon>
-                            <BookIcon></BookIcon>
+                            <BookIcon/>
                         </ListItemIcon>
                         <ListItemText primary="Définition"/>
                     </ListItemButton>
@@ -74,7 +72,7 @@ export default function ButtonAppBar() {
                 <ListItem disablePadding>
                     <ListItemButton>
                         <ListItemIcon>
-                            <AddIcon></AddIcon>
+                            <AddIcon/>
                         </ListItemIcon>
                         <ListItemText primary="Avantages"/>
                     </ListItemButton>
@@ -84,7 +82,7 @@ export default function ButtonAppBar() {
                 <ListItem disablePadding>
                     <ListItemButton>
                         <ListItemIcon>
-                            <EditButton></EditButton>
+                            <EditButton/>
                         </ListItemIcon>
                         <ListItemText primary="Creation"/>
                     </ListItemButton>
@@ -94,7 +92,7 @@ export default function ButtonAppBar() {
                 <ListItem disablePadding>
                     <ListItemButton>
                         <ListItemIcon>
-                            <ConstructionIcon></ConstructionIcon>
+                            <ConstructionIcon/>
                         </ListItemIcon>
                         <ListItemText primary="Outils"/>
                     </ListItemButton>
@@ -104,7 +102,7 @@ export default function ButtonAppBar() {
                 <ListItem disablePadding>
                     <ListItemButton>
                         <ListItemIcon>
-                            <GolfCourseIcon></GolfCourseIcon>
+                            <GolfCourseIcon/>
                         </ListItemIcon>
                         <ListItemText primary="Conclusion"/>
                     </ListItemButton>
@@ -132,7 +130,6 @@ export default function ButtonAppBar() {
                             MyPWA
                         </Link>
                     </Typography>
-                    <FormControlLabel labelPlacement="start" control={<Switch defaultChecked/>} label="Theme"/>
                 </Toolbar>
             </AppBar>
         </Box>

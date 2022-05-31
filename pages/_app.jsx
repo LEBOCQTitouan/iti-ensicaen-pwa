@@ -1,6 +1,7 @@
 import '../styles/globals.css'
 import ButtonAppBar from '../components/navigation/ButtonAppBar'
 import {createTheme, ThemeProvider} from '@mui/material/styles';
+import {CssBaseline} from "@mui/material";
 
 const customTheme = createTheme({
     palette: {
@@ -11,7 +12,8 @@ const customTheme = createTheme({
 function MyApp({Component, pageProps}) {
     return (
         <ThemeProvider theme={customTheme}>
-            <ButtonAppBar></ButtonAppBar>
+            <CssBaseline/>
+            <ButtonAppBar/>
             <Component {...pageProps} />
         </ThemeProvider>
     )
