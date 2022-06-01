@@ -11,7 +11,7 @@ export default function Introduction() {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
 
-            <main className={styles.main}>
+            <main>
                 <Container>
                     <Box height="100vh">
                         <h1 id="slide1">Definition</h1>
