@@ -2,6 +2,7 @@ import '../styles/globals.css'
 import ButtonAppBar from '../components/navigation/ButtonAppBar'
 import {createTheme, ThemeProvider} from '@mui/material/styles';
 import {CssBaseline} from "@mui/material";
+import Head from 'next/head';
 
 const customTheme = createTheme({
     palette: {
@@ -11,11 +12,17 @@ const customTheme = createTheme({
 
 function MyApp({Component, pageProps}) {
     return (
-        <ThemeProvider theme={customTheme}>
-            <CssBaseline/>
-            <ButtonAppBar/>
-            <Component {...pageProps} />
-        </ThemeProvider>
+        <>
+            <Head>
+                <link rel="manifest" href="/public/manifest.json"/>
+            </Head>
+            <ThemeProvider theme={customTheme}>
+                <CssBaseline/>
+                <ButtonAppBar/>
+                <Component {...pageProps} />
+            </ThemeProvider>
+        </>
+
     )
 }
 
