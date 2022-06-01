@@ -7,7 +7,6 @@ export default function Introduction() {
             <Head>
                 <title>Introduction</title>
                 <meta name="description" content="Introduction page"/>
-                <link rel="icon" href="/favicon.ico"/>
             </Head>
             <main>
                 <Grid>

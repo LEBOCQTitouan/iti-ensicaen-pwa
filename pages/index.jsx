@@ -17,7 +17,6 @@ export default function Home() {
             <Head>
                 <title>Accueil</title>
                 <meta name="description" content="Home page"/>
-                <link rel="icon" href="/favicon.ico"/>
             </Head>
             <main>
                 <Grid container flexDirection="column" justifyContent="center" alignItems="center" height="80vh">
