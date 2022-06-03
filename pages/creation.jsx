@@ -11,6 +11,8 @@ import {
 } from "@mui/material";
 import ArrowRightIcon from "@mui/icons-material/ArrowRight";
 import { useRouter } from "next/router";
+import MenuPres from "../components/Presentation/MenuPres";
+import MenuPresItem from "../components/Presentation/MenuPresItem";
 
 export default function Introduction() {
   const router = useRouter();
@@ -95,52 +97,9 @@ export default function Introduction() {
                 top: "10px",
               }}
             >
-              <List
-                component="nav"
-                aria-labelledby="nested-list-subheader"
-                subheader={
-                  <ListSubheader component="div" id="menu-sticky">
-                    PWA : création
-                  </ListSubheader>
-                }
-              >
-                <ListItemButton>
-                  <ListItemIcon>
-                    <ArrowRightIcon />
-                  </ListItemIcon>
-                  <ListItemText primary="Comment créer une PWA" />
-                </ListItemButton>
-                <ListItemButton>
-                  <ListItemIcon>
-                    <ArrowRightIcon />
-                  </ListItemIcon>
-                  <ListItemText primary="La PWA ne doit pas déjà être installée" />
-                </ListItemButton>
-                <ListItemButton>
-                  <ListItemIcon>
-                    <ArrowRightIcon />
-                  </ListItemIcon>
-                  <ListItemText primary="Heuristiques d’engagement utilisateurs" />
-                </ListItemButton>
-                <ListItemButton>
-                  <ListItemIcon>
-                    <ArrowRightIcon />
-                  </ListItemIcon>
-                  <ListItemText primary="Connection avec le serveur sécurisée" />
-                </ListItemButton>
-                <ListItemButton>
-                  <ListItemIcon>
-                    <ArrowRightIcon />
-                  </ListItemIcon>
-                  <ListItemText primary="Manifest" />
-                </ListItemButton>
-                <ListItemButton>
-                  <ListItemIcon>
-                    <ArrowRightIcon />
-                  </ListItemIcon>
-                  <ListItemText primary="Service Worker" />
-                </ListItemButton>
-              </List>
+                <MenuPres title="Création d'une PWA">
+                    <MenuPresItem content="test" linkedElement=""/>
+                </MenuPres>
             </Box>
           </Grid>
         </Grid>
