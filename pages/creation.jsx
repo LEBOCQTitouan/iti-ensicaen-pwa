@@ -98,7 +98,7 @@ export default function Introduction() {
               }}
             >
                 <MenuPres title="Création d'une PWA">
-                    <MenuPresItem content="test" linkedElement=""/>
+                    <MenuPresItem content="test" linkedElement="#1"/>
                 </MenuPres>
             </Box>
           </Grid>
