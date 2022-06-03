@@ -20,35 +20,22 @@ a {
   box-sizing: border-box;
 }
 
-#mainBox {
-  /* display : flex; */
-}
 
 .top_center,
 .bottom_left,
 .bottom_center,
 .bottom_right {
-  border: 0.5px solid;
-  border-radius: 15px;
-  background-color: #f3f3f5;
+  text-align: center;
+  
 }
 
 .top_center {
-  height: 40vw;
+  
 }
 
-.bottom {
-  display: flex;
-  flex-direction: row;
-  flex-basis: 0;
-  justify-content: space-between;
-  height: 30vw;
-  flex-wrap: wrap;
-}
 
-.bottom p {
-  font-size:x-small;
-}
+
+
 
 .top_center h1 {
   text-align: center;
@@ -57,16 +44,22 @@ a {
 .bottom_left,
 .bottom_center,
 .bottom_right {
-  flex-grow: 1;
-  width: min-content;
+  
 
 }
 
 .main_container {
-  width: 95vw;
-  margin-left: auto;
-  margin-right: auto;
-
-  background-color: #000000;
+  
 }
 
+.bottom_left {
+   
+}
+
+.bottom_center {
+  
+}
+
+.bottom_right {
+  
+}

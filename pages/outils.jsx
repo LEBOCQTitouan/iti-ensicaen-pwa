@@ -2,9 +2,25 @@ import styles from "../styles/Home.module.css";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import { Button, Container, Box } from "@mui/material";
+import Grid from '@mui/material/Grid';
+import NextImage from 'next/image'
+import ImageList from '@mui/material/ImageList';
+import ImageListItem from '@mui/material/ImageListItem';
 
 export default function Introduction() {
     const router = useRouter();
+
+    const itemData = [
+        {
+          src:'/../public/img/AngularLogo.png',
+          title: 'AngularLogo',
+        },
+
+        {
+            img:'/../public/img/ReactLogo.png',
+            title: 'ReactLogo',
+          }
+        ]
 
     return (
         <div className={styles.container}>
@@ -52,26 +68,53 @@ export default function Introduction() {
                 </Box>
 
                 <Box height="100vh" id="mainBox" onClick={() => { router.push("/outils#slide2") }}>
-                    <div class="main_container" id="slide2">
-                        <div class="top_center">
-                            <h1>React</h1>
-                        </div>
-
-
-                        <div class="bottom">
+                    <Grid container spacing={2}>
+                        <Grid item xs={12} md={12}>
+                            <div class="top_center" >
+                                <h1>Les Outils</h1>
+                                <div position="relative">
+                                    <ImageList sx={{ width: 500, height: 450 }} cols={2} rowHeight={164}>
+                                        {itemData.map((item) => (
+                                            <ImageListItem key={item.img}>
+                                                <img
+                                                    src={`${item.src}?w=164&h=164&fit=crop&auto=format`}
+                                                    alt={item.title}
+                                                    loading="lazy"
+                                                />
+                                            </ImageListItem>
+                                        ))}
+                                    </ImageList>
+                                </div>
+                            </div>
+                        </Grid>
+                        <Grid item xs={12} md={4}>
                             <div class="bottom_left">
-                                <h1>Bottom left</h1>
+                                <h1>React</h1>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                </p>
                             </div>
-
+                        </Grid>
+                        <Grid item xs={12} md={4}>
                             <div class="bottom_center">
-                                <h1>Bottoms center</h1>
+                                <h1>Angular</h1>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                </p>
                             </div>
-
+                        </Grid>
+                        <Grid item xs={12} md={4}>
                             <div class="bottom_right">
-                                <h1>Bottom right</h1>
+                                <h1>Our Choice</h1>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                </p>
                             </div>
-                        </div>
-                    </div>
+                        </Grid>
+                    </Grid>
                 </Box>
             </main>
         </div>
