@@ -4,15 +4,10 @@ body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-<<<<<<< HEAD
     
-  
-
-=======
     text-align: justify;
     background: rgb(238, 174, 202);
-  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
->>>>>>> 9ce9cb6bdb5758cd17b017680bc9d99ce83781e0
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
 }
 
 a {
