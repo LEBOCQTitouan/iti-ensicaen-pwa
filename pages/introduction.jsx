@@ -1,8 +1,7 @@
 import Head from "next/head";
-import {Box, Container, Grid, List} from "@mui/material";
-import Link from "next/link";
-import ListItemText from "@mui/material/ListItemText";
-import ListItemButton from "@mui/material/ListItemButton";
+import {Box, Container, Grid} from "@mui/material";
+import MenuPres from "../components/Presentation/MenuPres";
+import MenuPresItem from "../components/Presentation/MenuPresItem";
 
 export default function Introduction() {
     return (
@@ -51,21 +50,10 @@ export default function Introduction() {
                             position: "sticky",
                             top: "10px",
                         }}>
-                            <h3>
-                                Sur cette page
-                            </h3>
-                            <List>
-                                <Link href="#preambule">
-                                    <ListItemButton>
-                                        <ListItemText primary="Préambule"/>
-                                    </ListItemButton>
-                                </Link>
-                                <Link href="#apparition">
-                                    <ListItemButton>
-                                        <ListItemText primary="Apparition"/>
-                                    </ListItemButton>
-                                </Link>
-                            </List>
+                            <MenuPres title="Introduction">
+                                <MenuPresItem content="Préambule" linkedElement="#preambule"/>
+                                <MenuPresItem content="Apparition" linkedElement="#apparition"/>
+                            </MenuPres>
                         </Box>
                     </Grid>
                 </Grid>

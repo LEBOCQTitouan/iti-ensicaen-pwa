@@ -3,6 +3,7 @@ import ButtonAppBar from '../components/navigation/ButtonAppBar'
 import {createTheme, ThemeProvider} from '@mui/material/styles';
 import {CssBaseline} from "@mui/material";
 import Head from 'next/head';
+import Footer from "../components/navigation/Footer";
 
 const customTheme = createTheme({
     palette: {
@@ -23,6 +24,7 @@ function MyApp({Component, pageProps}) {
                 <CssBaseline/>
                 <ButtonAppBar/>
                 <Component {...pageProps} />
+                <Footer/>
             </ThemeProvider>
         </>
 
