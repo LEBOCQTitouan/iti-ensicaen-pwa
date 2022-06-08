@@ -98,12 +98,14 @@ export default function Introduction() {
                         </Container>
                     </Grid>
                     <Grid item xs={4}>
-                        <Box
-                            style={{
-                                position: "sticky",
-                                top: "10px",
-                            }}
-                        >
+                        <Box sx={{
+                            display: {
+                                xs: "none",
+                                md: "block"
+                            },
+                            position: "sticky",
+                            top: "10px",
+                        }}>
                             <MenuPres title="Les avantages des PWA">
                                 <MenuPresItem content="Cross platform" linkedElement="#slide1"/>
                                 <MenuPresItem content="Consomation mémoire faible" linkedElement="#slide2"/>

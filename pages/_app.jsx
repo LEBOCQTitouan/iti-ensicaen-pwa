@@ -19,20 +19,20 @@ const customTheme = createTheme({
 
 function MyApp({Component, pageProps}) {
     return (
-        <>
-            <Head>
-                <link rel="manifest" href="/manifest.json"/>
-                <link rel="icon" href="/favicon.ico"/>
-                <link rel="apple-touch-icon" href="/icons/icon-192x192.png"/>
-                <meta name="theme-color" content="#2A6A2D"/>
-            </Head>
-            <ThemeProvider theme={customTheme}>
-                <CssBaseline/>
-                <ButtonAppBar/>
-                <Component {...pageProps} />
-                <Footer/>
-            </ThemeProvider>
-        </>
+        <html lang="fr">
+        <Head>
+            <link rel="manifest" href="/manifest.json"/>
+            <link rel="icon" href="/favicon.ico"/>
+            <link rel="apple-touch-icon" href="/icons/icon-192x192.png"/>
+            <meta name="theme-color" content="#99bae6"/>
+        </Head>
+        <ThemeProvider theme={customTheme}>
+            <CssBaseline/>
+            <ButtonAppBar/>
+            <Component {...pageProps} />
+            <Footer/>
+        </ThemeProvider>
+        </html>
 
     )
 }
