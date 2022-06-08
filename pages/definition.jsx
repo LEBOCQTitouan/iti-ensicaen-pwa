@@ -32,21 +32,25 @@ export default function Introduction() {
                                     </ListItem>
                                     <ListItem>
                                         <ListItemText>
-                                            <strong>Fiabilité :</strong> bien qu'elles puissent être installés, les PWA
+                                            <strong>Fiabilité :</strong> bien qu&apos;elles puissent être installés, les
+                                            PWA
                                             sont liés à une
                                             URL qui leur permet ainsi de se maintenir à jour. Les PWA ont aussi pour but
-                                            d'être rapides et réactives peu importe l'état du réseau. Cela permet ainsi
-                                            d'augmenter la satisfaction des utilisateurs.
+                                            d&apos;être rapides et réactives peu importe l&apos;état du réseau. Cela
+                                            permet ainsi
+                                            d&apos;augmenter la satisfaction des utilisateurs.
                                         </ListItemText>
                                     </ListItem>
                                     <ListItem>
                                         <ListItemText>
-                                            <strong>Possibilité d'être installé :</strong> les PWA installés
-                                            apparaissent sur l'écran
-                                            d'accueil ou le menu des applications. Elles sont ensuite ouvertes dans une
-                                            fenêtre détachée du navigateur. Elles donnent ainsi l'impression à
-                                            l'utilisateur qu'elles sont des applications natives à la plateforme de
-                                            l'utilisateur.
+                                            <strong>Possibilité d&apos;être installé :</strong> les PWA installés
+                                            apparaissent sur l&apos;écran
+                                            d&apos;accueil ou le menu des applications. Elles sont ensuite ouvertes dans
+                                            une
+                                            fenêtre détachée du navigateur. Elles donnent ainsi l&apos;impression à
+                                            l&apos;utilisateur qu&apos;elles sont des applications natives à la
+                                            plateforme de
+                                            l&apos;utilisateur.
                                         </ListItemText>
                                     </ListItem>
                                 </List>
