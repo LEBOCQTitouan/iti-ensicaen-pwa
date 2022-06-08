@@ -7,7 +7,13 @@ import Footer from "../components/navigation/Footer";
 
 const customTheme = createTheme({
     palette: {
-        mode: 'dark',
+        mode: 'light',
+        primary: {
+            main: '#9abae6',
+        },
+        secondary: {
+            main: '#f2cb05',
+        },
     },
 });
 
