@@ -33,8 +33,8 @@ export default function Introduction() {
                 <Box height="100vh" id="mainBox" onClick={() => {
                     router.push("/outils#slide2")
                 }}>
-                    <Grid container spacing={2}>
-                        <Grid item xs={12} md={12}>
+                    <Grid container spacing={10} columns={{sm: 8, md: 12}}>
+                        <Grid item xs={8}>
                             <h1>Les Outils</h1>
                             <ImageList sx={{width: 400, height: 300}} cols={2} rowHeight={164}>
                                 {itemData.map((item) => (
