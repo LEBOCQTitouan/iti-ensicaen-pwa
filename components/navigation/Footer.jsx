@@ -6,7 +6,6 @@ export default function Footer() {
         <Container
             maxWidth="false"
             sx={{
-                bgcolor: "#000000",
                 position: "fixed",
                 left: "0",
                 bottom: "0",
