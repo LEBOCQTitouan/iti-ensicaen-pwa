@@ -35,7 +35,7 @@ export default function Introduction() {
               <Box height="auto" marginBottom={10}>
                 <h2 id="slide3">Contournement des stores d’application</h2>
                 <p>
-                  Lorsque que nous développons une application mobile nous devons payer une licence pour créer une application et la rendre disponible aux utilisateurs. La licence coûte 25 euros à vie pour le Play store et 100 euros à l’année pour l'Apple store. Ici pas besoin d’avoir une licence il suffit juste d’héberger une PWA sur un serveur et l’utilisateur pourra la télécharger via un site internet par exemple pour la récupérer directement sur son appareil.             </p>
+                  Lorsque que nous développons une application mobile nous devons payer une licence pour créer une application et la rendre disponible aux utilisateurs. La licence coûte 25 euros à vie pour le Play store et 100 euros à l’année pour l’Apple store. Ici pas besoin d’avoir une licence il suffit juste d’héberger une PWA sur un serveur et l’utilisateur pourra la télécharger via un site internet par exemple pour la récupérer directement sur son appareil.             </p>
               </Box>
               <Box height="auto" marginBottom={7}>
                 <h2 id="slide4">Possibilité d’être disponible hors ligne</h2>
@@ -46,7 +46,7 @@ export default function Introduction() {
               <Box height="auto" marginBottom={10}>
                 <h2 id="slide5">Service Worker</h2>
                 <p>
-                  Le service Worker est l’équivalent d’un proxy entre notre pwa et notre serveur. Si notre application venait à être hors ligne et que nous lui envoyons une requête pour une demande de ressources et, le service worker pourrait nous répondre directement et nous transmettre la ressource via le cache. De plus, si l’application est en ligne et que l’on fait un appel à l’api, le service worker vérifie d’abord s'il n’a pas déjà la ressource à jour dans le cache, et si ce n’est pas le cas, il utilisera le réseau pour récupérer la réponse. Cela permet de réduire l’utilisation du réseau au minimum. Le service worker ne fonctionne que sur HTTPS, pour des raisons de sécurité.
+                  Le service Worker est l’équivalent d’un proxy entre notre pwa et notre serveur. Si notre application venait à être hors ligne et que nous lui envoyons une requête pour une demande de ressources et, le service worker pourrait nous répondre directement et nous transmettre la ressource via le cache. De plus, si l’application est en ligne et que l’on fait un appel à l’api, le service worker vérifie d’abord s’il n’a pas déjà la ressource à jour dans le cache, et si ce n’est pas le cas, il utilisera le réseau pour récupérer la réponse. Cela permet de réduire l’utilisation du réseau au minimum. Le service worker ne fonctionne que sur HTTPS, pour des raisons de sécurité.
                 </p>
                 <div style={{
                   display: "flex",
@@ -61,7 +61,7 @@ export default function Introduction() {
                 </p>
               </Box>
               <Box height="auto" marginBottom={10}>
-                <h2 id="slide7">Accès aux ressources de l'ordinateur</h2>
+                <h2 id="slide7">Accès aux ressources de l’ordinateur</h2>
                 <p>
                   Contrairement à un site web, via une PWA vous avez accès aux ressources de l’ordinateur, comme par exemple le Bluetooth, l’USB, ou accéder aux fichiers de l’ordinateur et partager du contenu avec d’autres applications.
                 </p>
@@ -83,7 +83,7 @@ export default function Introduction() {
               <MenuPresItem content="Disponible hors ligne" linkedElement="#slide4" />
               <MenuPresItem content="Service Worker" linkedElement="#slide5" />
               <MenuPresItem content="Mise à jour implicite" linkedElement="#slide6" />
-              <MenuPresItem content="Accès aux ressources de l'ordinateur" linkedElement="#slide7" />
+              <MenuPresItem content="Accès aux ressources de l’ordinateur" linkedElement="#slide7" />
               </MenuPres>
             </Box>
           </Grid>
