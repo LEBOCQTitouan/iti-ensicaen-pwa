@@ -3,6 +3,7 @@ import MenuPres from "../components/Presentation/MenuPres";
 import MenuPresItem from "../components/Presentation/MenuPresItem";
 import { useRouter } from "next/router";
 import Image from 'next/image'
+import Head from "next/head";
 
 
 export default function Introduction() {
