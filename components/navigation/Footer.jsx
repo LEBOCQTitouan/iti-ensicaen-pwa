@@ -7,8 +7,8 @@ export default function Footer() {
             maxWidth="false"
             sx={{
                 bgcolor: "#000000",
-                position: "absolute",
-                width: "100vw",
+                position: "fixed",
+                left: "0",
                 bottom: "0",
                 textAlign: "center"
             }}>
