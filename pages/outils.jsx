@@ -52,26 +52,27 @@ export default function Introduction() {
                         </Grid>
                         <Grid item xs={12} md={4}>
                             <h1>React</h1>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s,
-                                when an unknown printer took a galley of type and scrambled it to make a type
-                                specimen book.
+                            <p>Il est techniquement possible d&apos;installer n&apos;importe quelle application web en tant que PWA tant qu&apos;elle
+                                respecte les critères évoqués ci-dessus. Cependant dans un souci de simplicité il est préconisé d&apos;utiliser
+                                des Framework comme React ou Angular mettant en place des applications One Page ou toute l&apos;application est
+                                directement livrée au client par le serveur. 
                             </p>
                         </Grid>
                         <Grid item xs={12} md={4}>
                             <h1>Angular</h1>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s,
-                                when an unknown printer took a galley of type and scrambled it to make a type
-                                specimen book.
+                            <p>React (développé par Facebook) et Angular (développé par Google)
+                                sont deux frameworks JavaScript, références dans le développement web.
+                                Ils permettent tous deux de créer des pages web avec différentes interfaces pour l&apos;utilisateur.
+                                Les applications web créées à l&apos;aide de ces frameworks sont aussi responsive, c&apos;est à dire, s&apos;adaptent
+                                à tous les écrans sur lesquels on souhaite l&apos;afficher.
                             </p>
                         </Grid>
                         <Grid item xs={12} md={4}>
                             <h1>Our Choice</h1>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s,
-                                when an unknown printer took a galley of type and scrambled it to make a type
-                                specimen book.
+                            <p>Cependant, certains outils complémentaires viennent s&apos;ajouter à ces frameworks. 
+                                Premièrement, NodeJs, un environnement d&apos;exécution pour Javascript fonctionnant en dehors des navigateurs.
+                                NodeJs permet aussi de construire des applications plus rapidement que d&apos;autres technologies telles
+                                que java, en utilisant moins de lignes de code. 
                             </p>
                         </Grid>
                     </Grid>
