@@ -1,7 +1,7 @@
 {
     "theme_color": "#388e3c",
     "background_color": "#424242",
-    "display": "minimal-ui",
+    "display": "standalone",
     "scope": "/",
     "start_url": "/",
     "name": "PWA Demonstration",
