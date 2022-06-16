@@ -48,16 +48,14 @@ export default function Introduction() {
                             <Box height="auto" marginBottom={10}>
                                 <h2 id="slide2">React &#38; Angular</h2>
                                 <Box>
-                                    <Image src="/img/AngularLogo.png" width={200} height={200} sizes='50vw'></Image>
-                                </Box>
-                                <Box>
-                                    <Image src="/img/ReactLogo.png" width={200} height={200} layout='responsive'></Image>
+                                    <Image src="/img/AngularLogo.png" width={100} height={100}></Image>
+                                    <Image src="/img/ReactLogo.png" width={100} height={100}></Image>
                                 </Box>
                                 <p>React (développé par Facebook) et Angular (développé par Google)
                                     sont deux frameworks JavaScript, références dans le développement web.
                                     Ils permettent tous deux de créer des pages web avec différentes interfaces pour l&apos;utilisateur.
                                     Les applications web créées à l&apos;aide de ces frameworks sont aussi responsive, c&apos;est à dire, s&apos;adaptent
-                                    à tous les écrans sur lesquels on souhaite l&apos;afficher.
+                                    à tous les écrans sur lesquels on souhaite les afficher.
                                 </p>
                             </Box>
                             <Box height="auto" marginBottom={10}>
@@ -79,7 +77,7 @@ export default function Introduction() {
                             position: "sticky",
                             top: "10px",
                         }}>
-                            <MenuPres title="Les avantages des PWA">
+                            <MenuPres title="Les outils du développement web">
                                 <MenuPresItem content="Frameworks Utilisés" linkedElement="#slide1" />
                                 <MenuPresItem content="React VS Angular" linkedElement="#slide2" />
                                 <MenuPresItem content="Outils Complémentaires" linkedElement="#slide3" />
