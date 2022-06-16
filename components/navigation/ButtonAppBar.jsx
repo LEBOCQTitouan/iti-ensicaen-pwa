@@ -19,6 +19,7 @@ import HomeIcon from '@mui/icons-material/Home';
 import EditButton from '@mui/icons-material/Edit';
 import Link from "next/link";
 import Typography from "@mui/material/Typography";
+import DownloadForOfflineIcon from '@mui/icons-material/DownloadForOffline';
 
 
 export default function ButtonAppBar() {
@@ -107,6 +108,16 @@ export default function ButtonAppBar() {
                             <GolfCourseIcon/>
                         </ListItemIcon>
                         <ListItemText primary="Conclusion"/>
+                    </ListItemButton>
+                </ListItem>
+            </Link>
+            <Link href="installation">
+                <ListItem disablePadding>
+                    <ListItemButton>
+                        <ListItemIcon>
+                            <DownloadForOfflineIcon/>
+                        </ListItemIcon>
+                        <ListItemText primary="Installation"/>
                     </ListItemButton>
                 </ListItem>
             </Link>

@@ -10,6 +10,7 @@ import AddIcon from "@mui/icons-material/Add";
 import EditButton from "@mui/icons-material/Edit";
 import ConstructionIcon from "@mui/icons-material/Construction";
 import GolfCourseIcon from "@mui/icons-material/GolfCourse";
+import DownloadForOfflineIcon from '@mui/icons-material/DownloadForOffline';
 
 export default function Home() {
     return (
@@ -81,6 +82,16 @@ export default function Home() {
                                         <GolfCourseIcon/>
                                     </ListItemIcon>
                                     <ListItemText primary="Conclusion"/>
+                                </ListItemButton>
+                            </ListItem>
+                        </Link>
+                        <Link href="installation">
+                            <ListItem disablePadding>
+                                <ListItemButton>
+                                    <ListItemIcon>
+                                        <DownloadForOfflineIcon/>
+                                    </ListItemIcon>
+                                    <ListItemText primary="Installation"/>
                                 </ListItemButton>
                             </ListItem>
                         </Link>
