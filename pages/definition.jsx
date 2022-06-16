@@ -3,7 +3,7 @@ import {Box, Container, Grid, List, ListItem, ListItemText} from "@mui/material"
 import MenuPres from "../components/Presentation/MenuPres";
 import MenuPresItem from "../components/Presentation/MenuPresItem";
 
-export default function Introduction() {
+export default function Definition() {
     return (
         <Container>
             <Head>

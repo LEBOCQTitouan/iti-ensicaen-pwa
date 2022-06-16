@@ -4,7 +4,7 @@ import MenuPresItem from "../components/Presentation/MenuPresItem";
 import Image from 'next/image'
 import Head from "next/head";
 
-export default function Introduction() {
+export default function Avantages() {
     return (
         <Container>
             <Head>

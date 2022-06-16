@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-export default function Introduction() {
+export default function Conclusion() {
     return (
         <div>
             <Head>
