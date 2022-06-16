@@ -19,7 +19,7 @@ export default function Introduction() {
                 <Grid container spacing={10} columns={{sm: 8, md: 12}}>
                     <Grid item xs={8}>
                         <Container>
-                            <h1>Installation d&aposune PWA</h1>
+                            <h1>Installation d&apos;une PWA</h1>
                             <Box height="auto" marginBottom={10}>
                                 <p>Il est extrêmement facile d&apos;installer une PWA. Que vous soyez sur ordinateur,
                                     tablette ou mobile, la méthode est identique.
@@ -35,6 +35,9 @@ export default function Introduction() {
                             <Box height="auto" marginBottom={10}>
                                 <h2>Sur mobile ou tablette</h2>
                                 <h3 id="slide3">Android</h3>
+                                <p>Une fois le site ouvert dans votre navigateur, un message apparaît :</p>
+                                <Image src="/img/android.png" width={150} height={25} alt="download icon"/>
+                                <p>Cliquez dessus et la PWA sera installée et accessible depuis votre écran d&apos;acceuil.</p>
                                 <h3 id="slide4">IOS / IpadOS</h3>
                                 <p>Une fois le site ouvert sur Safari, cliquez sur l&apos;icone :</p>
                                 <Image src="/img/share_icon.png" width={23} height={27} alt="share icon"/>
