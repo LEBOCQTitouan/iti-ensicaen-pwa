@@ -25,6 +25,7 @@ function MyApp({Component, pageProps}) {
             <link rel="icon" href="/favicon.ico"/>
             <link rel="apple-touch-icon" href="/icons/icon-192x192.png"/>
             <meta name="theme-color" content="#99bae6"/>
+            <title/>
         </Head>
         <ThemeProvider theme={customTheme}>
             <CssBaseline/>
@@ -37,4 +38,4 @@ function MyApp({Component, pageProps}) {
     )
 }
 
-export default MyApp
+export default MyApp;

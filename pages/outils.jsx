@@ -7,7 +7,7 @@ import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
 
 
-export default function Introduction() {
+export default function Outils() {
     const router = useRouter();
 
     const itemData = [
@@ -15,12 +15,11 @@ export default function Introduction() {
             src: '/img/AngularLogo.png',
             title: 'Angular',
         },
-
         {
             src: "/img/ReactLogo.png",
             title: 'React',
         }
-    ]
+    ];
 
     return (
         <Container>
@@ -34,11 +33,12 @@ export default function Introduction() {
                     router.push("/outils#slide2")
                 }}>
                     <Grid container spacing={10} columns={{sm: 8, md: 12}}>
-                        <Grid item xs={8}>
+                        <Grid item xs={12}>
                             <h1>Les Outils</h1>
-                            <ImageList sx={{width: 400, height: 300}} cols={2} rowHeight={164}>
+                            <ImageList sx={{width: 300, height: 300}} cols={2} rowHeight={164}>
                                 {itemData.map((item) => (
                                     <ImageListItem key={item.img}>
+                                        {/* eslint-disable-next-line @next/next/no-img-element */}
                                         <img
                                             src={`${item.src}?w=164&h=164&fit=crop&auto=format`}
                                             srcSet={`${item.src}?w=248&fit=crop&auto=format&dpr=2 2x`}

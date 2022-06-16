@@ -21,7 +21,7 @@ export default function Home() {
             <main>
                 <Grid container flexDirection="column" justifyContent="center" alignItems="center" height="80vh">
                     <Box>
-                        <h1>Bienvenue sur MyPWA</h1>
+                        <h1 style={{textAlign: "center"}}>Bienvenue sur MyPWA</h1>
                     </Box>
                     <List>
                         <Link href="/introduction">

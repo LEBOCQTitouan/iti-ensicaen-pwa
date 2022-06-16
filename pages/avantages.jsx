@@ -4,7 +4,6 @@ import MenuPresItem from "../components/Presentation/MenuPresItem";
 import Image from 'next/image'
 import Head from "next/head";
 
-
 export default function Introduction() {
     return (
         <Container>
@@ -16,9 +15,9 @@ export default function Introduction() {
                 <Grid container spacing={10} columns={{sm: 8, md: 12}}>
                     <Grid item xs={8}>
                         <Container>
-                            <Box height="auto" marginBottom={10}>
-                                <h1 id="slide1">Les Avantages des PWA</h1>
-                                <h2>Le cross platform</h2>
+                            <Box>
+                                <h1>Avantages</h1>
+                                <h2 id="cross-platform">Le cross platform</h2>
                                 <p>
                                     Une PWA est totalement responsive c’est à dire que son design s’adapte de manière
                                     fluide et optimisée à tous les supports d’appareils (smartphone, tablette et
@@ -28,8 +27,8 @@ export default function Introduction() {
                                     push, même quand l’application n’est pas active.
                                 </p>
                             </Box>
-                            <Box height="auto" marginBottom={10}>
-                                <h2 id="slide2">Consomation en mémoire faible</h2>
+                            <Box>
+                                <h2 id="consommation">Consommation en mémoire faible</h2>
                                 <p>
                                     Comme l’application est conçu en langage Web, elle sera moins couteuse en mémoire
                                     dans les différents appareils actuels, ce qui est un plus non négligeable pour nos
@@ -39,8 +38,8 @@ export default function Introduction() {
                                     11.91 secondes sur leur application android à 4.68 secondes pour la PWA.
                                 </p>
                             </Box>
-                            <Box height="auto" marginBottom={10}>
-                                <h2 id="slide3">Contournement des stores d’application</h2>
+                            <Box>
+                                <h2 id="stores">Contournement des stores d’application</h2>
                                 <p>
                                     Lorsque que nous développons une application mobile nous devons payer une licence
                                     pour créer une application et la rendre disponible aux utilisateurs. La licence
@@ -49,8 +48,8 @@ export default function Introduction() {
                                     et l’utilisateur pourra la télécharger via un site internet par exemple pour la
                                     récupérer directement sur son appareil. </p>
                             </Box>
-                            <Box height="auto" marginBottom={7}>
-                                <h2 id="slide4">Possibilité d’être disponible hors ligne</h2>
+                            <Box marginBottom={7}>
+                                <h2 id="hors-ligne">Possibilité d’être disponible hors ligne</h2>
                                 <p>
                                     L’un des nombreux avantages de cette technologie est la possibilité de fonctionner
                                     en mode hors ligne. Pour qu’elle puisse être disponible sans connexion, nous allons
@@ -59,8 +58,8 @@ export default function Introduction() {
                                     Worker</b>.
                                 </p>
                             </Box>
-                            <Box height="auto" marginBottom={10}>
-                                <h2 id="slide5">Service Worker</h2>
+                            <Box>
+                                <h2 id="service-worker">Service Worker</h2>
                                 <p>
                                     Le service Worker est l’équivalent d’un proxy entre notre pwa et notre serveur. Si
                                     notre application venait à être hors ligne et que nous lui envoyons une requête pour
@@ -73,52 +72,48 @@ export default function Introduction() {
                                     sécurité.
                                 </p>
                                 <div style={{
-                                    display: "flex",
-                                    justifyContent: "center",
-                                }}><Image src="/img/service_worker.png" width={800} height={200}></Image>
+                                    display: "flex", justifyContent: "center",
+                                }}><Image src="/img/service_worker.png" width={800} height={200}
+                                          alt="service-worker illustration"/>
                                 </div>
                             </Box>
-                            <Box height="auto" marginBottom={10}>
-                                <h2 id="slide6">Mise a jour implicite</h2>
+                            <Box>
+                                <h2 id="mise-a-jour">Mise a jour implicite</h2>
                                 <p>
                                     Un avantage non négligeable est que, comparée à une application native, une PWA
                                     n’aura pas besoin de faire de mise à jour régulièrement, car tant que l’utilisateur
                                     est connecté à internet, il a la dernière version de l’application.
                                 </p>
                             </Box>
-                            <Box height="auto" marginBottom={10}>
-                                <h2 id="slide7">Accès aux ressources de l’ordinateur</h2>
+                            <Box>
+                                <h2 id="ressources">Accès aux ressources de l’ordinateur</h2>
                                 <p>
                                     Contrairement à un site web, via une PWA vous avez accès aux ressources de
                                     l’ordinateur, comme par exemple le Bluetooth, l’USB, ou accéder aux fichiers de
                                     l’ordinateur et partager du contenu avec d’autres applications.
                                 </p>
                             </Box>
-
                         </Container>
                     </Grid>
                     <Grid item xs={4}>
                         <Box sx={{
                             display: {
-                                xs: "none",
-                                md: "block"
-                            },
-                            position: "sticky",
-                            top: "10px",
+                                xs: "none", md: "block"
+                            }, position: "sticky", top: "10px",
                         }}>
                             <MenuPres title="Les avantages des PWA">
-                                <MenuPresItem content="Cross platform" linkedElement="#slide1"/>
-                                <MenuPresItem content="Consomation mémoire faible" linkedElement="#slide2"/>
-                                <MenuPresItem content="Contournement des stores" linkedElement="#slide3"/>
-                                <MenuPresItem content="Disponible hors ligne" linkedElement="#slide4"/>
-                                <MenuPresItem content="Service Worker" linkedElement="#slide5"/>
-                                <MenuPresItem content="Mise à jour implicite" linkedElement="#slide6"/>
-                                <MenuPresItem content="Accès aux ressources de l’ordinateur" linkedElement="#slide7"/>
+                                <MenuPresItem content="Cross platform" linkedElement="#cross-platform"/>
+                                <MenuPresItem content="Consommation mémoire faible" linkedElement="#consommation"/>
+                                <MenuPresItem content="Contournement des stores" linkedElement="#stores"/>
+                                <MenuPresItem content="Disponible hors ligne" linkedElement="#hors-ligne"/>
+                                <MenuPresItem content="Service Worker" linkedElement="#service-worker"/>
+                                <MenuPresItem content="Mise à jour implicite" linkedElement="#mise-a-jour"/>
+                                <MenuPresItem content="Accès aux ressources de l’ordinateur"
+                                              linkedElement="#ressources"/>
                             </MenuPres>
                         </Box>
                     </Grid>
                 </Grid>
             </main>
-        </Container>
-    )
+        </Container>)
 }

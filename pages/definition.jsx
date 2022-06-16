@@ -66,7 +66,7 @@ export default function Introduction() {
                             position: "sticky",
                             top: "10px",
                         }}>
-                            <MenuPres title="Introduction">
+                            <MenuPres title="Définition">
                                 <MenuPresItem content="Qualités" linkedElement="#qualites"/>
                             </MenuPres>
                         </Box>
