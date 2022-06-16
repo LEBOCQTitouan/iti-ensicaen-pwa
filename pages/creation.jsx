@@ -88,12 +88,12 @@ export default function Creation() {
                             top: "10px",
                         }}>
                             <MenuPres title="Création d'une PWA">
-                                <MenuPresItem content="Comment créer une PWA ?" linkedElement="slide1"/>
-                                <MenuPresItem content="Ne pas être déjà installée" linkedElement="slide2"/>
-                                <MenuPresItem content="Engagement utilisateur" linkedElement="slide3"/>
-                                <MenuPresItem content="Serveur sécurisé" linkedElement="slide4"/>
-                                <MenuPresItem content="Manifest" linkedElement="slide5"/>
-                                <MenuPresItem content="Service worker" linkedElement="slide6"/>
+                                <MenuPresItem content="Comment créer une PWA ?" linkedElement="#slide1"/>
+                                <MenuPresItem content="Ne pas être déjà installée" linkedElement="#slide2"/>
+                                <MenuPresItem content="Engagement utilisateur" linkedElement="#slide3"/>
+                                <MenuPresItem content="Serveur sécurisé" linkedElement="#slide4"/>
+                                <MenuPresItem content="Manifest" linkedElement="#slide5"/>
+                                <MenuPresItem content="Service worker" linkedElement="#slide6"/>
 
                             </MenuPres>
                         </Box>
