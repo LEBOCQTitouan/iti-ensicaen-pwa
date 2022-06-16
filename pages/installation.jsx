@@ -29,7 +29,7 @@ export default function Introduction() {
                                 <h2 id="slide2">Sur navigateur</h2>
                                 <p>Sur votre navigateur, cliquez sur l&apos;icône :</p>
                                 <Image src="/img/dl_icon.png" width={50} height={50} alt="download icon"/>
-                                <p>dans votre barre d&aposadresse. La PWA sera ensuite installée dans vos
+                                <p>dans votre barre d&apos;adresse. La PWA sera ensuite installée dans vos
                                     applications.</p>
                             </Box>
                             <Box height="auto" marginBottom={10}>
@@ -38,7 +38,7 @@ export default function Introduction() {
                                 <h3 id="slide4">IOS / IpadOS</h3>
                                 <p>Une fois le site ouvert sur Safari, cliquez sur l&apos;icone :</p>
                                 <Image src="/img/share_icon.png" width={23} height={27} alt="share icon"/>
-                                <p>puis cliquez sur <strong>&quotajouter à l&apos;écran d&apos;acceuil&quot;</strong>.
+                                <p>puis cliquez sur <strong>&quot;ajouter à l&apos;écran d&apos;acceuil&quot;</strong>.
                                     L&apos;application
                                     sera directement ajoutée et accessible depuis votre écran d&apos;acceuil.</p>
                             </Box>
