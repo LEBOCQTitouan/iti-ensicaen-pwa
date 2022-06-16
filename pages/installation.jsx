@@ -40,7 +40,7 @@ export default function Introduction() {
                                 <Image src="/img/share_icon.png" width={23} height={27} alt="share icon"/>
                                 <p>puis cliquez sur <strong>&quotajouter à l&apos;écran d&apos;acceuil&quot;</strong>.
                                     L&apos;application
-                                    sera directement ajoutée et accessible depuis votre écran d&aposacceuil.</p>
+                                    sera directement ajoutée et accessible depuis votre écran d&apos;acceuil.</p>
                             </Box>
                         </Container>
                     </Grid>
