@@ -15,7 +15,7 @@ export default function Creation() {
                     <Grid item xs={8}>
                         <Container>
                             <Box>
-                                <h1>Comment créer une PWA ?</h1>
+                                <h1 id="slide1">Comment créer une PWA ?</h1>
                                 <p>
                                     Afin de pouvoir installer une PWA cette dernière va devoir
                                     remplir certains critères sans quoi il sera impossible de
@@ -25,7 +25,7 @@ export default function Creation() {
                                 </p>
                             </Box>
                             <Box>
-                                <h2>La PWA ne doit pas déjà être installée</h2>
+                                <h2 id="slide2">La PWA ne doit pas déjà être installée</h2>
                                 <p>
                                     Tout d’abord afin d’installer une PWA elle ne doit pas déjà
                                     être présente sur la session active ou sur l’ordinateur. Et
@@ -34,7 +34,7 @@ export default function Creation() {
                                 </p>
                             </Box>
                             <Box>
-                                <h2>Heuristiques d’engagement utilisateurs</h2>
+                                <h2 id="slide3">Heuristiques d’engagement utilisateurs</h2>
                                 <p>
                                     Dans un second temps l’installation de l’application
                                     nécessiter de valider les heuristiques d’engagement
@@ -47,14 +47,14 @@ export default function Creation() {
                                 </p>
                             </Box>
                             <Box>
-                                <h2>Connection avec le serveur sécurisée</h2>
+                                <h2 id="slide4">Connection avec le serveur sécurisée</h2>
                                 <p>
                                     Dans un souci de sécurité et de fiabilité l’application doit
                                     être fournie via une connexion sécurisée en HTTPS.{" "}
                                 </p>
                             </Box>
                             <Box>
-                                <h2>Manifest</h2>
+                                <h2 id="slide5">Manifest</h2>
                                 <p>
                                     Ensuite afin de permettre au navigateur ainsi qu’au système
                                     d’exploitation de savoir comment installer l’application il va
@@ -68,7 +68,7 @@ export default function Creation() {
                                 </p>
                             </Box>
                             <Box>
-                                <h2>Service Worker</h2>
+                                <h2 id="slide6">Service Worker</h2>
                                 <p>
                                     Et enfin l’application doit mettre à disposition un service
                                     Worker pour permettre à l’application d’être utilisée en mode
@@ -88,7 +88,13 @@ export default function Creation() {
                             top: "10px",
                         }}>
                             <MenuPres title="Création d'une PWA">
-                                <MenuPresItem content="test" linkedElement=""/>
+                                <MenuPresItem content="Comment créer une PWA ?" linkedElement="slide1"/>
+                                <MenuPresItem content="Ne pas être déjà installée" linkedElement="slide2"/>
+                                <MenuPresItem content="Engagement utilisateur" linkedElement="slide3"/>
+                                <MenuPresItem content="Serveur sécurisé" linkedElement="slide4"/>
+                                <MenuPresItem content="Manifest" linkedElement="slide5"/>
+                                <MenuPresItem content="Service worker" linkedElement="slide6"/>
+
                             </MenuPres>
                         </Box>
                     </Grid>
