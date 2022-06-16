@@ -75,16 +75,6 @@ export default function Home() {
                                 </ListItemButton>
                             </ListItem>
                         </Link>
-                        <Link href="conclusion">
-                            <ListItem disablePadding>
-                                <ListItemButton>
-                                    <ListItemIcon>
-                                        <GolfCourseIcon/>
-                                    </ListItemIcon>
-                                    <ListItemText primary="Conclusion"/>
-                                </ListItemButton>
-                            </ListItem>
-                        </Link>
                         <Link href="installation">
                             <ListItem disablePadding>
                                 <ListItemButton>
